@@ -4,6 +4,8 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    chatgpt_output = None
+    
     if request.method == 'POST':
         concept_note = request.form['concept_note']
         review_type = request.form['review_type']
@@ -13,7 +15,7 @@ def index():
         
         return render_template('results.html', chatgpt_output=chatgpt_output)
     
-    return render_template('index.html')
+    return render_template('index.html', chatgpt_output=chatgpt_output)
 
 # This function is just a placeholder. You should replace this with the actual ChatGPT call.
 def generate_chatgpt_response(concept_note, review_type):
