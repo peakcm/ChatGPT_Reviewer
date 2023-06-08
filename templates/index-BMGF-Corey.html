@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Note Reviewer</title>
+</head>
+<body>
+    <h1>Concept Note Reviewer</h1>
+    <form action="/" method="POST">
+        <label for="concept_note">Paste your concept note here:</label><br>
+        <textarea name="concept_note" rows="4" cols="50"></textarea><br>
+        <label for="review_type">Select Review:</label>
+        <select name="review_type">
+            <option value="gender">Gender</option>
+            <option value="media">Media</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
