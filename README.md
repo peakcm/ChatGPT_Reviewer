@@ -3,5 +3,6 @@ Web app to generate review of projects from user-specified expert perspectives a
 
 Designed to run in CodeSpace
 
-First, install Flask using Pip:
-pip install Flask
+First, install:
+- Python
+- pip install Flask
