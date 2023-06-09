@@ -21,3 +21,5 @@ def generate_chatgpt_response(concept_note, review_type):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
