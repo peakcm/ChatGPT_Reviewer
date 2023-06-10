@@ -6,3 +6,4 @@ Designed to run in CodeSpace
 First, install:
 - Python
 - pip install Flask
+- pip install openai
